@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Graphic version="2.0" viewHeight="792" viewWidth="612" ai:appVersion="16.0.0.682" ATE:version="1.0.0" flm:version="1.0.0" d:using="" xmlns="http://ns.adobe.com/fxg/2008" xmlns:ATE="http://ns.adobe.com/ate/2009" xmlns:ai="http://ns.adobe.com/ai/2009" xmlns:d="http://ns.adobe.com/fxg/2008/dt" xmlns:flm="http://ns.adobe.com/flame/2008">
+  <Library/>
+  <Group blendMode="normal" d:layerType="page" d:pageHeight="792" d:pageWidth="612" d:type="layer" d:userLabel="Artboard 1">
+    <Group d:type="layer" d:userLabel="Layer 1">
+      <Path y="144.271" winding="nonZero" ai:seqID="1" data="M0 0 612 6.75635 612 428.378 0 428.378">
+        <fill>
+          <LinearGradient x="0" y="214.189" scaleX="612">
+            <GradientEntry ratio="0" color="#FFFFFF"/>
+            <GradientEntry ratio="1" color="#120F0F"/>
+          </LinearGradient>
+        </fill>
+        <stroke>
+          <SolidColorStroke caps="none" joints="miter" miterLimit="10"/>
+        </stroke>
+      </Path>
+      <RichText x="57.1074" y="187.081" columnCount="1" textAlign="left" tabStops="S36 S72 S108 S144 S180 S216 S252 S288 S324 S360 S396 S432 S468 S504" fontFamily="Myriad Pro" fontSize="72" kerning="on" whiteSpaceCollapse="preserve" ai:aa="2" ai:seqID="2">
+        <content><p fontFamily="Myriad Pro" kerning="off"/><p fontFamily="Myriad Pro"><span fontFamily="Myriad Pro">UITS-</span><span fontFamily="Myriad Pro" color="#CEC4C7">AUTUMN-19</span></p></content>
+      </RichText>
+      <RichText x="127.107" y="343.721" columnCount="1" textAlign="left" tabStops="S36 S72 S108 S144 S180 S216 S252 S288" fontFamily="Myriad Pro" fontSize="48" kerning="on" whiteSpaceCollapse="preserve" ai:aa="2" ai:seqID="3">
+        <content><p fontFamily="Myriad Pro" kerning="off"/><p fontFamily="Myriad Pro"><span fontFamily="Myriad Pro">IT &amp; CSE BATCH</span></p></content>
+      </RichText>
+      <RichText x="505.107" y="463.5" columnCount="1" textAlign="left" tabStops="S36" fontFamily="Myriad Pro" fontSize="14" kerning="on" whiteSpaceCollapse="preserve" ai:aa="2" ai:seqID="4">
+        <content><p fontFamily="Myriad Pro"><span fontFamily="Myriad Pro">-SHAFIQ-</span></p></content>
+      </RichText>
+    </Group>
+  </Group>
+  <Private>
+      <d:FontMap>
+        <d:Map fontFamily="Myriad Pro" fontStyle="normal" fontWeight="normal" postScriptName="MyriadPro-Regular"/>
+      </d:FontMap>
+    </Private>
+  </Graphic>

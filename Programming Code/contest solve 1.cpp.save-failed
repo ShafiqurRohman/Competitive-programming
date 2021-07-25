@@ -1,0 +1,56 @@
+#include<bits/stdc++.h>
+#define dbug printf("I am here\n");
+#define Fast ios_base::sync_with_stdio(false); cin.tie(0);
+#define vs              v.size()
+#define ss              s.size()
+#define sot(v)        sort(v.begin(),v.end())
+#define rev(v)        reverse(v.begin(),v.end())
+#define ii                pair<int,int>
+#define ll                long long
+#define ull              unsigned long long
+#define pb              push_back
+#define mpp          make_pair
+#define Okay         0
+#define pi               3.14159
+
+static ll int inf = 1e9;
+using namespace std;
+
+ll mod(ll n){
+    ll k = 7;
+    ll cnt = 1;
+    map<ll, ll>mp;
+    while(1){
+
+        cnt++;
+        k = ((k*10)+7)%n;
+        if(mp[k] != 0)return -1;
+        mp[k]++;
+        if(k == 0)break;
+
+    }
+    return cnt;
+}
+
+void solve(){
+    ll n;
+   cin>>n;
+   if(n<7){
+    cout<<"-1"<<endl;
+    return;
+   }
+   else if(n == 7){
+     cout<<"1"<<endl;
+    return;
+   }
+   cout<<mod(n)<<endl;
+
+}
+
+
+int main(){
+
+    solve();
+
+    return Okay ;
+}
